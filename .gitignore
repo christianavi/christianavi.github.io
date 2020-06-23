@@ -1,0 +1,19 @@
+_site
+.DS_Store
+Gemfile.lock
+*.swp
+.sass-cache
+*~
+.jekyll-cache
+
+# added
+README.md
+LICENSE.txt
+changelog.md
+site
+
+# theme posts. for testing only
+_posts/_drafts/
+
+#images
+assets/images/.hidden/
