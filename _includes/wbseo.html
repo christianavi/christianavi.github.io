@@ -19,6 +19,8 @@
 {% assign author = site.authors[page.author] %}{% if page.author %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 {% else %}
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta name="description" content="{{ site.description }}" />
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
