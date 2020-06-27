@@ -35,9 +35,12 @@ post_class: post-template
     {% include adsense-under-header.html %}
 {% endif %} -->
 
-<!-- Featured Image -->
+<!-- Featured video/image -->
+{% if page.video %}
+{% include featured-video.html %}
+{% else %}
 {% include featured-image.html %}
-
+{% endif %}
 <!-- Content -->
 {% include article.html %}
 

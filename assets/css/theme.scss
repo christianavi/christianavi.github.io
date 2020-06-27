@@ -112,6 +112,19 @@ img, img:hover {
 .featured-image, .firstpage .blog-grid-item:nth-child(1), .firstpage .blog-grid-item:nth-child(2), .firstpage .blog-grid-item:nth-child(3) {
     animation: fade-up 0.7s ease-out forwards running;
 }
+.featured-video{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .featured-video iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 // menu
 .navbar-brand img {
     max-height:80px;
