@@ -11,7 +11,6 @@ tags: [ PlayStation®5 ]
 # Extras
 image: assets/images/spiderman.jpg
 toc: true
-video: "https://www.youtube.com/watch?v=vlvch1ENQOk"
 ---
 Here are great titles confirmed coming to the much-awaited PlayStation®5. Fair warning—the screen captures of these games on PS5 look absolutely stunning.
 
