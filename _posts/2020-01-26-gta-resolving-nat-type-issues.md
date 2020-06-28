@@ -14,8 +14,10 @@ tags:
 
 # Extras
 image: assets/images/stnc.jpg
+og-image: assets/images/og_stnc.jpg
 toc: true
 imageshadow: true
+rating: 4
 ---
 
 Getting disconnected from online multiplayer games is always frustrating and we all had our fair share of disconnections. Grand Theft Auto Online is one of the games where players often experience disconnections. It turns out it has something to do with <a href="https://en.wikipedia.org/wiki/Network_address_translation" target="blank">NAT</a> type, which may be "strict." This means that it is blocking ports used by the game. Rockstar Games support provided two possible solutions for this; enabling <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play" target="blank">UPnP</a> or setting up a <a href="https://en.wikipedia.org/wiki/Port_forwarding" target="blank">port-forwarding</a> rule on your router.
@@ -86,7 +88,4 @@ DNS server addresses:
 ![](https://i.imgur.com/uIBqH9i.png)
 
 #### Other ISPs
-
-For those subscribed to other ISPs, your routers may look different, but there's a good chance you find the same settings if you look around for UPnP. And if nothing works, you can always use a VPN.
-
-### Checking your NAT type
+I have little to no experience with modems provided by other ISPs. If you have a different modem or subscribed to another ISP, your router may look different, but there's a good chance you find the same settings if you look around for UPnP. If you cannot find UPnP on your modem, port-forwarding is the way to go. If nothing works, you can always use a VPN.

@@ -15,11 +15,14 @@ tags:
 
 # Extras
 image: assets/images/opendota.jpg
+og-image: assets/images/og_opendota.jpg
+imageshadow: true
+rating: 4.5
 ---
 
-Since Valve reworked its matchmaking and introduced medals, players were no longer able to display their MMRs on their profiles. As a result, third-party sites like Dotabuff and OpenDota couldn't track their MMR anymore. Third-party sites are only able to display the MMRs when they last displayed it on their profiles.
+Since Valve reworked its matchmaking and introduced medals, players were no longer able to display their MMR on their profiles. As a result, third-party sites like Dotabuff and OpenDota couldn't track their MMR anymore. Third-party sites are only able to display the MMR when they last displayed it on their profiles.
 
-The current game client does not allow you to display your MMR anymore. Luckily for those who kept their profile showcases, their MMRs will still be tracked until they remove it. For us who didn't, do not lose hope because there is still a way. **Download the older game client, and display your Solo and Party MMR—Simple!**
+The current game client does not allow you to display your MMR anymore. Luckily for those who kept their profile showcases, their MMR will still be tracked until they remove it. For us who didn't, do not lose hope because there is still a way. **Download the older game client, and display your Solo and Party MMR—Simple!**
 
 ## Guide
 
