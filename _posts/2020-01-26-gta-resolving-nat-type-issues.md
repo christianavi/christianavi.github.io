@@ -4,11 +4,13 @@ layout: post
 # Post info
 title: 'Resolving NAT type issues for GTA V'
 author: avi
-last_modified_at: 2020-06-19 22:25:00 +08:00
+last_modified_at: 2020-06-28 23:06:00 +08:00
 categories:
 - Gaming
 tags:
 - Grand Theft Auto V
+- NAT
+- UPnP
 
 # Extras
 image: assets/images/stnc.jpg
@@ -16,9 +18,9 @@ toc: true
 imageshadow: true
 ---
 
-Getting disconnected from online multiplayer games is always frustrating and I guess we all had our fair share of disconnections. I would always get disconnected when playing Grand Theft Auto Online. It turns out it had something to do with my NAT type, which at that time was "strict." This meant that it was blocking ports used by the game. Rockstar Games support provided two possible solutions for this; enabling uPnP or setting up a port-forwarding rule on my router.
+Getting disconnected from online multiplayer games is always frustrating and we all had our fair share of disconnections. Grand Theft Auto Online is one of the games where players often experience disconnections. It turns out it has something to do with <a href="https://en.wikipedia.org/wiki/Network_address_translation" target="blank">NAT</a> type, which may be "strict." This means that it is blocking ports used by the game. Rockstar Games support provided two possible solutions for this; enabling <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play" target="blank">UPnP</a> or setting up a <a href="https://en.wikipedia.org/wiki/Port_forwarding" target="blank">port-forwarding</a> rule on your router.
 
-This guide only covers resolving NAT type issues by enabling UPnP and is meant for PLDT Home Fibr and PLDT Home DSL subscribers. In any case, those subscribed to other ISPs may still follow along.
+This guide only covers resolving NAT type issues by enabling UPnP and is meant for modems used by PLDT Home Fibr and PLDT Home DSL subscribers. In any case, those who own other modems or subscribed to other ISPs may still follow along.
 
 ### Getting the necessary information
  Open **Command Prompt** and enter `ipconfig` and you should get something like this:
@@ -87,3 +89,4 @@ DNS server addresses:
 
 For those subscribed to other ISPs, your routers may look different, but there's a good chance you find the same settings if you look around for UPnP. And if nothing works, you can always use a VPN.
 
+### Checking your NAT type
