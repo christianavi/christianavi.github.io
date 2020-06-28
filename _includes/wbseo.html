@@ -1,6 +1,9 @@
-{% if page.title=="Home" %}
-<title>{{ site.title }}</title>
+<!-- SEO -->
+{% if page.title=="Home" %}<title>{{ site.title }}</title>
 <meta name="description" content="{{ site.description }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<meta property="fb:app_id" content="272097524041584" />
+
 <!-- Open Graph-->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
@@ -11,36 +14,36 @@
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.name }}">
 <meta name="description" content="{{ site.description }}" />
+
 <!-- Twitter Cards-->
 <meta name="twitter:card" content="{{ site.url }}/{{ page.image }}"/>
-<meta name="twitter:title" content="{{ page.title}}">
-<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+<meta name="twitter:title" content="{{ site.title}}">
+<meta name="twitter:description" content="{{ site.description }}">
 <meta name="twitter:site" content="@christianaviii" />
-{% assign author = site.authors[page.author] %}{% if page.author %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
-{% else %}
-<title>{{ page.title }} | {{ site.title }}</title>
+{% else %}<title>{{ page.title }} | {{ site.title }}</title>
 <meta name="description" content="{{ site.description }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<meta property="fb:app_id" content="272097524041584" />
+
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ page.title}}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}/{{ page.og-image }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="article:publisher" content="https://www.facebook.com/warmbananas" />
-{% assign author = site.authors[page.author] %}{% if page.author %}<meta property="article:author" content="{{ author.name }}" />{% endif %}
+{% assign author = site.authors[page.author] %}{% if page.author %}<meta property="article:author" content="{% if author.facebook %}https://www.facebook.com/{{ author.facebook }}{% else %}{{ author.name }}{% endif %}" />{% endif %}
 <meta property="article:published_time" content="{{ page.date }}" />
-<meta property="og:description" content="{{ page.excerpt | strip_html }}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 300 }}{% else %}{{ page.excerpt | strip_html | truncate: 300 }}{% endif %}">
+
 <!-- Twitter Cards-->
-<meta name="twitter:card" content="{{ site.url }}/{{ page.image }}"/>
+<meta name="twitter:card" content="{{ site.url }}/{{ page.og-image }}"/>
 <meta name="twitter:title" content="{{ page.title}}">
-<meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 200 }}{% else %}{{ page.excerpt | strip_html | truncate: 200 }}{% endif %}">
 <meta name="twitter:site" content="@christianaviii" />
-{% assign author = site.authors[page.author] %}{% if page.author %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
+{% assign author = site.authors[page.author] %}{% if page.author %}<meta name="twitter:creator" content="{% if author.twitter %}@{{ author.twitter }}{% else %}christianaviii{% endif %}">{% endif %}
 <meta name="twitter:card" content="summary_large_image">
 {% endif %}
-<!-- Constants -->
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-<meta property="fb:app_id" content="272097524041584" />

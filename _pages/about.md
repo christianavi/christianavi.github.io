@@ -11,3 +11,4 @@ excerpt_separator: <!--excerpt-->
 #### A product of curiosity
 <hr>
 Warm Bananas is a project that was started out of curiosity and boredom. The website has been launched on December 29, 2019.
+<hr>
