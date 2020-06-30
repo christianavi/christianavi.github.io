@@ -1,43 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/icons/apple-touch-icon.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{'/assets/img/icons/favicon-32x32.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{'/assets/img/icons/favicon-16x16.png?v=qA3OXqyw77' | relative_url }}">
-  <link rel="manifest" href="{{ '/assets/img/icons/manifest.json?v=qA3OXqyw77' | relative_url }}">
-  <link rel="mask-icon" href="{{ '/assets/img/icons/safari-pinned-tab.svg?v=qA3OXqyw77' | relative_url }}" color="#5bbad5">
-  <!--[if IE]><link rel="shortcut icon" href="/assets/img/icons/favicon.ico?v=qA3OXqyw77"><![endif]-->
-  <link rel="shortcut icon" href="{{ '/assets/img/icons/favicon.ico?v=qA3OXqyw77' | relative_url }}">
-  <meta name="apple-mobile-web-app-title" content="Join the Warm Bananas Discord Server!">
-  <meta name="application-name" content="Join the Warm Bananas Discord Server!">
-  <meta property="fb:app_id" content="2513354752236806"/>
-  <meta property="og:url" content="https://www.warmbananas.com/discord" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Join The Warm Bananas Discord Server!"/>
-  <meta property="og:description" content="Check out the Warm Bananas community on Discord - Boost your gameplay and have fun!"/>
-  <meta property="og:image" content="https://www.warmbananas.com/assets/img/pages/discord.jpg"/> -->
-  <meta name="msapplication-config" content="{{ '/assets/img/icons/browserconfig.xml?v=qA3OXqyw77' | relative_url }}">
-  <meta name="theme-color" content="#ffffff">
-  <meta http-equiv="refresh" content="0; URL='https://discord.gg/xhP8Spm'" />
+---
+layout: default
+title: Discord
+description: "Join the Warm Bananas Gaming Discord server and discuss with fellow gamers!"
+permalink: /discord
+og-image: "assets/images/wb.png"
+redirect: "true"
+redirect-delay: 8
+redirect-link: https://discord.gg/xhP8Spm
+---
+<style>
+    .newsletter {
+        display:none;
+    }
+</style>
+<div class="text-center">
+<h1 class="mt-5"><span class="badge badge-dark font-weight-normal">Warm Bananas Gaming</span></h1>
+<h1 class="display-1 mt-4 mb-4">Redirecting..</h1>
+<p> Redirecting to the Discord server in <span id="countdowntimer">{{ page.redirect-delay }} </span> seconds. If you are not redirected automatically, please click this <a href="https://discord.gg/xhP8Spm">link</a>.</p>
 
-  <style class="inlineCSS">
-  </style>
-  <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
-  <script type="text/javascript">
-   {% include loadCss.js %}
-  </script>
+<script type="text/javascript">
+    var timeleft = {{ page.redirect-delay }};
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft <= 0)
+        clearInterval(downloadTimer);
+    },1000);
+</script>
 
-  <script
-    data-ad-client="ca-pub-5326267743024936"
-    async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-  </script>
-
-</head>
-<body>
-
-</body>
-</html>
+</div>
