@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about
 comments: false
-image: 
+image: /assets/images/wb.png
 imageshadow: true
 excerpt_separator: <!--excerpt-->
 ---
