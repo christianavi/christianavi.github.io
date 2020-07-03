@@ -9,8 +9,6 @@ categories:
 - Gaming
 tags:
 - Grand Theft Auto V
-- NAT
-- UPnP
 
 # Extras
 image: assets/images/stnc.jpg

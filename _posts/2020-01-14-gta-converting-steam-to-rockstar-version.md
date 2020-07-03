@@ -9,9 +9,6 @@ last_modified_at: 2020-06-29 00:20 +08:00
 categories: [ Gaming ]
 tags:
 - Grand Theft Auto V
-- Steam
-- Rockstar
-- Epic Games
 
 # Extras
 image: assets/images/gtav.jpg
