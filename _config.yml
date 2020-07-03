@@ -7,7 +7,6 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
 url: https://www.warmbananas.com
-google-tag-manager: "GTM-TSHL42B"
 disqus: 'https-www-warmbananas-com'
 # mailchimp-list: ''
 include: ["_pages"]

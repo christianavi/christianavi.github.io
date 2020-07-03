@@ -15,7 +15,6 @@ tags:
 
 # Extras
 image: assets/images/gtav.jpg
-og-image: assets/images/og_gtav.jpg
 toc: true
 imageshadow: true
 ---

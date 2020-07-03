@@ -7,18 +7,13 @@
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 
 {% include wbseo.html %}
+
 <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','{{ site.google-tag-manager }}');</script>
-<!-- End Google Tag Manager -->
-{% include adsense.html %}
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/googletagmanager.js"></script>{% if site.adsense=="enabled" %}
+<script data-ad-client="{{ site.adsense-data-ad-client }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>{% endif %}
 {% include redirect.html %}
 </head>
 

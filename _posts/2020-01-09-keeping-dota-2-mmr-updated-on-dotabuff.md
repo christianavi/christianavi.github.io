@@ -15,7 +15,6 @@ tags:
 
 # Extras
 image: assets/images/opendota.jpg
-og-image: assets/images/og_opendota.jpg
 imageshadow: true
 rating: 4.5
 ---

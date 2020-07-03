@@ -31,7 +31,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ page.title}}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/{{ page.og-image }}" />
+<meta property="og:image" content="{{ site.url }}/{{ page.image }}" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 <meta property="og:site_name" content="{{ site.name }}">
 <meta property="article:publisher" content="https://www.facebook.com/warmbananas" />
@@ -40,7 +40,7 @@
 <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 300 }}{% else %}{{ page.excerpt | strip_html | truncate: 300 }}{% endif %}">
 
 <!-- Twitter Cards-->
-<meta name="twitter:card" content="{{ site.url }}/{{ page.og-image }}"/>
+<meta name="twitter:card" content="{{ site.url }}/{{ page.image }}"/>
 <meta name="twitter:title" content="{{ page.title}}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | truncate: 200 }}{% else %}{{ page.excerpt | strip_html | truncate: 200 }}{% endif %}">
 <meta name="twitter:site" content="@christianaviii" />

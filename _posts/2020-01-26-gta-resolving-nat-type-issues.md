@@ -14,7 +14,6 @@ tags:
 
 # Extras
 image: assets/images/stnc.jpg
-og-image: assets/images/og_stnc.jpg
 toc: true
 imageshadow: true
 rating: 4
