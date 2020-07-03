@@ -15,6 +15,7 @@ tags:
 
 # Extras
 image: assets/images/gtav.jpg
+photocredit: Grand Theft Auto V
 toc: true
 imageshadow: true
 ---

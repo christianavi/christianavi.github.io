@@ -15,6 +15,7 @@ tags:
 
 # Extras
 image: assets/images/opendota.jpg
+photocredit: OpenDota
 imageshadow: true
 rating: 4.5
 ---

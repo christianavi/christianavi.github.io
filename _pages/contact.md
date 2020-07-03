@@ -3,8 +3,13 @@ layout: page
 title: Contact
 permalink: /contact
 comments: false
-image: /assets/images/wb.png
+image: assets/images/wb.png
 ---
+<style>
+    .entry-featured-image {
+        display: none;
+    }
+</style>
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
 <p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
