@@ -10,12 +10,10 @@ categories:
 - Gaming
 tags:
 - DOTA 2
-- Dotabuff
-- OpenDota
 
 # Extras
 image: assets/images/opendota.jpg
-og-image: assets/images/og_opendota.jpg
+photocredit: OpenDota
 imageshadow: true
 rating: 4.5
 ---

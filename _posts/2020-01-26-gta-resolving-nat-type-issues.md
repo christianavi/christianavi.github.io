@@ -9,12 +9,10 @@ categories:
 - Gaming
 tags:
 - Grand Theft Auto V
-- NAT
-- UPnP
 
 # Extras
 image: assets/images/stnc.jpg
-og-image: assets/images/og_stnc.jpg
+photocredit: Romel Merino
 toc: true
 imageshadow: true
 rating: 4
