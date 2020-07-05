@@ -68,6 +68,12 @@ blockquote {
         font-weight:700;
     }
 }
+.caption {
+    font-style: italic;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
 // animation
 .nav-icon, 
 .hamburger-bar, 
@@ -745,6 +751,9 @@ body.active-side {
     blockquote {
         margin-left:15px;
         font-size:18px;
+    }
+    .caption {
+        font-size:11;
     }
     .article-post {
         font-size:15px;
