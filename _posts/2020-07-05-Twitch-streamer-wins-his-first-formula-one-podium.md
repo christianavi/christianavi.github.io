@@ -17,7 +17,7 @@ image: assets/images/formula-1-lando-norris.jpg
 photocredit: "TeamL4NDO via Twitter"
 imageshadow: true
 ---
-Lando Norris, a 20-year-old British-Belgian <a href="https://www.twitch.tv/landonorris" target="blank">Twitch streamer</a> with almost 500,000 followers and over 4000 subscribers driving for the McLaren F1 Team stepped on his very first Formula One podium today at the Austrian Grand Prix after finishing at 3rd place, just ahead of <a href="https://www.formula1.com/en/drivers/lewis-hamilton.html" target="blank">six-time Formula One World Champion Lewis Hamilton</a>. Finishing at 2nd place is another Twitch streamer, <a href="https://www.twitch.tv/charlesleclerc" target="blank">Charles Leclerc</a>.
+Lando Norris, a 20-year-old British <a href="https://www.twitch.tv/landonorris" target="blank">Twitch streamer</a> with almost 500,000 followers and over 4000 subscribers driving for the McLaren F1 Team stepped on his very first Formula One podium today at the Austrian Grand Prix after finishing at 3rd place, just ahead of <a href="https://www.formula1.com/en/drivers/lewis-hamilton.html" target="blank">six-time Formula One World Champion Lewis Hamilton</a>. Finishing at 2nd place is another Twitch streamer, <a href="https://www.twitch.tv/charlesleclerc" target="blank">Charles Leclerc</a>.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">FU*KKKK YEAHHHHH!! 🍾 P3 and my first every Podium!! 🍾 😁😁😁😁😁😁😁😁😁 <a href="https://t.co/gMClg9JPwG">pic.twitter.com/gMClg9JPwG</a></p>&mdash; Lando Norris (@LandoNorris) <a href="https://twitter.com/LandoNorris/status/1279853813357252608?ref_src=twsrc%5Etfw">July 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
