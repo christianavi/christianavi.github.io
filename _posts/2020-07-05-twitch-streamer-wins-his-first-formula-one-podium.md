@@ -13,7 +13,7 @@ tags:
 
 # Extras
 # video: "ixl31324UxE"
-image: assets/images/formula-1-lando-norris.jpg
+image: assets/images/formula-1-lando-norris-gg-boys.jpg
 photocredit: "TeamL4NDO via Twitter"
 imageshadow: true
 ---
