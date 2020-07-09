@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Christmas Countdown
-permalink: /christmas-countdown
+permalink: /christmas
 image: assets/images/wb.png
 ---
 <style>

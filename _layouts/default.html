@@ -18,8 +18,7 @@
 </head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-
-<body>    
+<body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSHL42B" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -52,7 +51,7 @@
 <div class="container">
    <!-- Logo -->
    <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        <img id="sticky" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     <!-- Tag -->
     </a>  
     {% if page.url == '/' %}
@@ -60,6 +59,12 @@
             {{ site.banner-message }}
         </p>
     {% endif %}<!-- Content -->
+    <style>
+        .main-content {
+            overflow: auto;
+            padding-bottom: 120px;
+        }
+    </style>
     <div class="main-content">
         {{ content }}
     </div>{% if site.mailchimp-list %}
@@ -78,9 +83,14 @@
 <!-- Begin Footer -->
 <footer class="footer">
     <div class="container">
+        <style>
+            .row {
+                padding-bottom: 30px;
+            }
+        </style>
         <div class="row">
             <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+                Copyright &copy; {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-12 text-center text-lg-right">    
                 {{ site.description }}
@@ -89,7 +99,7 @@
     </div>
 </footer>
 <!-- End Footer -->
-</div> <!-- /.site-content -->
+</di0v> <!-- /.site-content -->
 <script src="{{ site.baseurl }}/assets/js/prism.js"></script>
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
 {% if site.lazyimages == "enabled" %}

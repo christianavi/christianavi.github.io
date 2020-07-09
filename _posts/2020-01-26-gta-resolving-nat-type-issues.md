@@ -65,8 +65,9 @@ DNS server addresses:
 
 1. Open your browser and type in your modem's **default gateway** on the address bar.
 2. Login with an account with **admin privileges**.
-
-*Check this <a href="https://gist.github.com/christianavi/5b07244b272edbf1b653717a63c1ce5f" target="blank">link</a> to find out your modem's admin credentials.*
+<div class="note-container">
+    <div class="note-text-container">Admin credentials may differ depending on your modem. <a href="https://gist.github.com/christianavi/5b07244b272edbf1b653717a63c1ce5f/" target="blank">Learn more</a>.</div>
+</div>
 
 #### PLDT Home Fibr
 
