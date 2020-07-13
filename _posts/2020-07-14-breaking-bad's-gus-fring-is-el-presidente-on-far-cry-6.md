@@ -13,7 +13,7 @@ tags:
 
 # Extras
 # video: "ixl31324UxE"
-image: assets/images/gus-fring.jpg
+image: assets/images/gustavo-fring.jpg
 photocredit: "Far Cry 6"
 imageshadow: true
 ---
