@@ -2,7 +2,7 @@
 layout: default
 title: Christmas Countdown
 permalink: /christmas
-image: assets/images/wb.png
+image: assets/images/wbxmas.png
 ---
 <style>
     .newsletter .entry-featured-image {
