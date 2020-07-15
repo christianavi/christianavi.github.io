@@ -5,7 +5,7 @@ layout: post
 title: 'Keeping DOTA 2 MMR updated on Dotabuff'
 author: avi
 date: 2020-01-09 06:00:00 +08:00
-last_modified_at: 2020-06-28 22:48:00 +08:00
+last_modified_at: 2020-07-16 02:33:00 +08:00
 categories:
 - Gaming
 tags:
@@ -25,7 +25,7 @@ The current game client does not allow you to display your MMR anymore. Luckily 
 ## Guide
 
 Here is exactly how I downloaded the older game client and displayed my MMR afterwards.
-1. **Opening the Steam console** - To open the Steam console, open your browser and enter this URL on the address bar: `steam://open/console`
+1. **Opening the Steam console** - To open the Steam console, open your browser and enter this URL on the address bar: `steam://open/console` or click this <a href="steam://open/console" target="blank">link</a>.
 2. **Downloading the DOTA 2 depots** - Enter each of the following lines into your Steam console.
 ```steam
 download_depot 570 373303 6890280957208715765

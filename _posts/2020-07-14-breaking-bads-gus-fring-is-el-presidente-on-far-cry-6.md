@@ -26,3 +26,5 @@ Giancarlo Esposito — a celebrated television, film and stage actor who portray
 </div>
 
 The first-person shooter game developed by Ubisoft is scheduled to be released on February 18, 2021 for Playstation 5, Playstation 4, Xbox Series X, Xbox One, PC and Google's Stadiaon Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X, and Google Stadia.
+
+```
