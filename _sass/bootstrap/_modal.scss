@@ -16,6 +16,7 @@
 
 // Container that the modal scrolls within
 .modal {
+  background-color: $dark-mode-2;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,6 +61,7 @@
   max-height: subtract(100%, $modal-dialog-margin * 2);
 
   .modal-content {
+    background-color: $dark-mode-2;
     max-height: subtract(100vh, $modal-dialog-margin * 2); // IE10/11
     overflow: hidden;
   }
@@ -138,6 +140,8 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
+  color: $bright;
+  background-color: $dark-mode;
   display: flex;
   align-items: flex-start; // so the close btn always stays on the upper right corner
   justify-content: space-between; // Put modal header elements (title and dismiss) on opposite ends
@@ -161,6 +165,8 @@
 // Modal body
 // Where all modal content resides (sibling of .modal-header and .modal-footer)
 .modal-body {
+  background-color: $dark-mode;
+  color: $bright;
   position: relative;
   // Enable `flex-grow: 1` so that the body take up as much space as possible
   // when there should be a fixed height on `.modal-dialog`.
@@ -170,6 +176,8 @@
 
 // Footer (for actions)
 .modal-footer {
+  background-color: $dark-mode;
+  color: $bright;
   display: flex;
   flex-wrap: wrap;
   align-items: center; // vertically center
