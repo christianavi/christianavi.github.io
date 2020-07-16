@@ -4,6 +4,7 @@
 // `background-color`.
 
 .badge {
+  border-radius: 20px;
   display: inline-block;
   padding: $badge-padding-y $badge-padding-x;
   @include font-size($badge-font-size);

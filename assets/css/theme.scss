@@ -343,7 +343,9 @@ img, img:hover {
         margin-top:15px;
     }
     .card-footer {
-        color: 8E9AA7;
+        border-radius: 20px;
+        background-color: $dark-mode-2;
+        color: #8E9AA7;
         font-size:14px;
         border-top:0;
         padding: 1rem 1.25rem;
@@ -357,6 +359,7 @@ img, img:hover {
         margin-top: 10px;
     }
     .img-thumb {
+        border-radius: 20px 20px 0px 0px;
         object-fit:cover;
         height:240px;
         width:100%;
