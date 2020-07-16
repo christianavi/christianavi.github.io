@@ -106,6 +106,7 @@
 
 // Actual modal
 .modal-content {
+  border-radius: 25px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -140,13 +141,14 @@
 // Modal header
 // Top section of the modal w/ title and dismiss
 .modal-header {
+  border-radius: 20px 20px 0px 0px;
   color: $bright;
   background-color: $dark-mode;
   display: flex;
   align-items: flex-start; // so the close btn always stays on the upper right corner
   justify-content: space-between; // Put modal header elements (title and dismiss) on opposite ends
   padding: $modal-header-padding;
-  border-bottom: $modal-header-border-width solid $modal-header-border-color;
+//  border-bottom: $modal-header-border-width solid $modal-header-border-color;
   @include border-top-radius($modal-content-inner-border-radius);
 
   .close {
@@ -176,6 +178,7 @@
 
 // Footer (for actions)
 .modal-footer {
+  border-radius: 0px 0px 20px 20px;
   background-color: $dark-mode;
   color: $bright;
   display: flex;
@@ -183,7 +186,7 @@
   align-items: center; // vertically center
   justify-content: flex-end; // Right align buttons with flex property because text-align doesn't work on flex items
   padding: $modal-inner-padding - $modal-footer-margin-between / 2;
-  border-top: $modal-footer-border-width solid $modal-footer-border-color;
+//  border-top: $modal-footer-border-width solid $modal-footer-border-color;
   @include border-bottom-radius($modal-content-inner-border-radius);
 
   // Place margin between footer elements
