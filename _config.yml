@@ -3,7 +3,7 @@ name: "Warm Bananas"
 title: "Warm Bananas"
 description: "Totally random stuff."
 banner-message: "What's happening?"
-logo: 'assets/images/logo-bright.png'
+logo: 'assets/images/logo-banana.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
 url: https://www.warmbananas.com
@@ -66,7 +66,7 @@ kramdown:
 # Facebook Messenger
 messenger:
   page-id: "103714821167720"
-  theme-color: "#ffffff"
+  theme-color: "#ffc300"
   logged-in-greeting: "Hi! How can we help you?"
   logged-out-greeting: "Hi! How can we help you?"
       

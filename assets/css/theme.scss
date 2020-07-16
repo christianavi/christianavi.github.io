@@ -4,9 +4,10 @@
 
 $brown: #B59F62;
 $teal: #40FFDC;
+$banana: #ffc300;
 $black: #111;
 $bright: #cfd2d1;
-$primary: $teal;
+$primary: $banana;
 $dark:    $black;
 $dark-mode: #151718;
 $dark-mode-2: #0d0e0e;
@@ -31,7 +32,7 @@ body {
     color: #cfd2d1;
 }
 a {
-    color: darken($primary, 24%);
+    color: darken($primary, 5%);
 }
 img {
     max-width:100%;
@@ -78,7 +79,7 @@ hr {
     background: $dark-mode-2;
     &:hover {
         color: $black;
-        background-color: $teal;
+        background-color: $banana;
     }
 }
 .dark-form {
@@ -281,7 +282,7 @@ img, img:hover {
                 font-size: 18px;
                 position: relative;
                 &:hover {           
-                    color: $teal;
+                    color: $banana;
                  }
             }
         }
@@ -402,11 +403,12 @@ img, img:hover {
 .pagination {
     justify-content:center;
     a {
-        background: rgba(0,0,0,0.05);
-        color:#000;
+        background: $dark-mode-2;
+        color: $bright;
         cursor:pointer;
         &:hover {
             background: $primary;
+            color: $black;
             text-decoration:none;
         }
     }
@@ -454,7 +456,7 @@ img, img:hover {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    color: $teal;
+    color: $banana;
     size: 20%;
 }
 .image-shadow {   
@@ -467,7 +469,7 @@ img, img:hover {
         width:50px;
         border-radius:50%;
         margin-right:10px;
-        border:2px solid darken($primary,20%);
+        border:2px solid darken($primary,5%);
         padding:2px;
     }
 }
@@ -480,7 +482,7 @@ img, img:hover {
     .author-thumb {
         width:70px;
         border-radius:50%;
-        border:2px solid darken($primary,20%);
+        border:2px solid darken($primary,5%);
         padding:2px;
     }
 }
@@ -586,7 +588,7 @@ img, img:hover {
 .show-search {
     cursor:pointer;
     &:hover {
-        color: darken($primary,20%);
+        color: darken($primary,5%);
     }
 }
 .bd-search {
@@ -618,7 +620,7 @@ img, img:hover {
         font-size:20px;
         margin-bottom:5px;
         &:hover {
-            color: darken($primary,20%);
+            color: darken($primary,5%);
         }
     }
     span.body {
