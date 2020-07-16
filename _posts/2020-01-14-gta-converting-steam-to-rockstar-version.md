@@ -14,7 +14,6 @@ tags:
 image: assets/images/gtav.jpg
 photocredit: Grand Theft Auto V
 toc: true
-imageshadow: true
 ---
 
 So you got yourself another copy of Grand Theft Auto V. The problem is, you got a different version from your first one this time, and you want to save yourself the trouble of having to download the whole game again, knowing it's the same game. Lucky you, the game can be converted into another version.

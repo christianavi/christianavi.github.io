@@ -14,7 +14,6 @@ tags:
 # Extras
 image: assets/images/opendota.jpg
 photocredit: OpenDota
-imageshadow: true
 rating: 4.5
 ---
 Since Valve reworked its matchmaking and introduced medals, players were no longer able to display their MMR on their profiles. As a result, third-party sites like Dotabuff and OpenDota couldn't track their MMR anymore. Third-party sites are only able to display the MMR when they last displayed it on their profiles.

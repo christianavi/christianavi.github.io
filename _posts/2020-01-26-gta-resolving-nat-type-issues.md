@@ -14,7 +14,6 @@ tags:
 image: assets/images/stnc.jpg
 photocredit: Romel Merino
 toc: true
-imageshadow: true
 rating: 4
 ---
 

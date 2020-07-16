@@ -28,8 +28,8 @@ body {
     position: relative;
     line-height:1.7;
     min-height: 100%;
-    background: #151718;
-    color: #cfd2d1;
+    background: $dark-mode;
+    color: $bright;
 }
 a {
     color: darken($primary, 5%);
@@ -163,6 +163,7 @@ img, img:hover {
 }
 .featured-image {
     border-radius: 20px;
+    background-color: red;
 }
 .featured-video{
     position: relative;
@@ -447,6 +448,7 @@ img, img:hover {
     line-height:1.2;
 }
 .entry-featured-image { 
+    background-color: $dark-mode;
     position: relative; 
     text-align:center;
     margin-left:auto;
@@ -466,11 +468,6 @@ img, img:hover {
     right: 16px;
     color: $banana;
     size: 20%;
-}
-.image-shadow {   
-    -webkit-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
-    box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
 }
 .entry-header {
     .author-thumb {

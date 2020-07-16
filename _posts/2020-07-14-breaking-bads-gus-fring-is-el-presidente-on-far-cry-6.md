@@ -15,7 +15,6 @@ tags:
 # video: "ixl31324UxE"
 image: assets/images/gustavo-fring.jpg
 photocredit: "Far Cry 6"
-imageshadow: true
 ---
 Giancarlo Esposito — a celebrated television, film and stage actor who portrayed <a href="https://www.amc.com/shows/breaking-bad/cast-crew/gustavo-fring" target="blank">Gustavo "Gus" Fring</a> on AMC's <a href="https://www.amc.com/shows/breaking-bad" target="blank">Breaking Bad</a> and its prequel <a href="https://www.amc.com/shows/better-call-saul" target="blank">Better Call Saul</a> was featured on a Far Cry 6 trailer as "El Presidente." The game features actor Giancarlo Esposito as President Anton Castillo, the dictator who rules the island of Yara, a fictional Caribbean island based on Cuba. The character was also voiced and modeled after him.
 

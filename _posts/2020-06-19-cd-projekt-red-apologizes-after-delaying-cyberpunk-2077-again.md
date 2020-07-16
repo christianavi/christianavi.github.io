@@ -14,7 +14,6 @@ tags:
 # video: "ixl31324UxE"
 image: assets/images/cyberpunk.jpg
 photocredit: Cyberpunk 2077
-imageshadow: true
 ---
 Cyberpunk 2077 — an upcoming and a much anticipated video game developed by CD Projekt Red has been delayed again. Instead of its planned release on September 17, it is now scheduled to be released on November 19, 2020, according to the announcement made on Twitter. 
 <div align="center">
