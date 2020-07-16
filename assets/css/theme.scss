@@ -5,8 +5,11 @@
 $brown: #B59F62;
 $teal: #40FFDC;
 $black: #111;
+$bright: #cfd2d1;
 $primary: $teal;
 $dark:    $black;
+$dark-mode: #151718;
+$dark-mode-2: #0d0e0e;
 $enable-rounded: false;
 
 @import "bootstrap/functions";
@@ -17,14 +20,15 @@ $enable-rounded: false;
 
 
 // general
-body, input, button, select, optgroup, textarea {   
+body, input, button, select, optgroup, textarea {
     font-family:Sen;
 }
 body {
     position: relative;
     line-height:1.7;
     min-height: 100%;
-    background: #f4f4f4;
+    background: #151718;
+    color: #cfd2d1;
 }
 a {
     color: darken($primary, 24%);
@@ -36,6 +40,9 @@ img {
 
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
+}
+hr {
+    background-color: $bright;
 }
 .site-content {
     min-height: 100vh;
@@ -59,12 +66,32 @@ h1,h2,h3,h4,h5,h6 {
 .btn {
     min-width: 180px;
 }
+.text-bright {
+    color: $bright;
+    &:hover {
+        color: $bright;
+    }
+}
+.btn-bright {
+    border-radius: 20px;
+    color: $bright;
+    background: $dark-mode-2;
+    &:hover {
+        color: $black;
+        background-color: $teal;
+    }
+}
+.dark-form {
+    border: 0px;
+    border-radius: 20px;
+    background-color: #3a3b3c;
+}
 blockquote {
     font-family: Times New Roman;
     font-style: italic;
     font-size: 20px;
     position:relative;
-    border-left:1px solid $dark;
+    border-left:1px solid $bright;
     margin-left:30px;
     padding-left:15px;
     cite {
@@ -81,7 +108,7 @@ blockquote {
     border-radius: 8px;
     border-left: 6px solid;
     border-color: #40ffdc;
-    background: #e6e6e6;
+    background: $dark-mode-2;
     padding: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -158,7 +185,7 @@ img, img:hover {
     height: 100%;
     border-right: solid rgba(0, 0, 0, 0.07) 1px;
     z-index: 1022;
-    background:#fff;
+    background:#0d0e0e;
 }
 .nav-icon {
     position: fixed;
@@ -182,7 +209,7 @@ img, img:hover {
             position: absolute;
             width: 18px;
             height: 2px;
-            background: #292C30;
+            background: #cfd2d1;
             border-radius: 1px;
         }
         &:before {
@@ -210,12 +237,12 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(8, 11, 16, 0);
+    background: #151718;
     z-index: -1;
     animation: animate2 .3s;
     &.active {
             z-index: 4;
-            background: rgba(8, 11, 16, 0.7);
+            background: rgba(21, 23, 24, 0.7);
             animation: animate .3s;
     }
 }
@@ -225,7 +252,7 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 420px;
-    background: #fff;
+    background: #0d0e0e;
     padding: 0;
     margin: 0;
     transform: translate(-100%, 0);
@@ -271,7 +298,7 @@ img, img:hover {
     grid-template-rows: 1fr;
     grid-gap: 30px;
 }
-.blog-grid-item {  
+.blog-grid-item {
     color: #333;
     padding: 0;
     display: flex;
@@ -282,6 +309,8 @@ img, img:hover {
         margin-right: 7px;
     }
     .card {
+        background-color: #0d0e0e;
+        color: #8E9AA7;
         border:0;
         &:hover {           
            .card-title a { 
@@ -311,7 +340,8 @@ img, img:hover {
         margin-top:15px;
     }
     .card-footer {
-       font-size:14px;
+        color: 8E9AA7;
+        font-size:14px;
         border-top:0;
         padding: 1rem 1.25rem;
         a {
@@ -468,7 +498,7 @@ img, img:hover {
         border-radius: 15px;
         font-size:15px;
         margin-bottom:30px;
-        background: #151718;
+        background-color: $dark-mode-2;
         color:#cfd2d1;
         text-shadow: none;
     }
@@ -485,7 +515,7 @@ img, img:hover {
 
 .spoiler {
     color: transparent;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
     transition: all .4s;
     cursor: pointer;
     position: relative;
@@ -496,8 +526,8 @@ img, img:hover {
         top: 45%;
         left: calc(50% - 75px);
         text-shadow: none;
-        background: #222;
-        color: #fff;
+        background: $dark-mode;
+        color: $bright;
         display: inline-block;
         font-size: 13px;
         line-height: 1;
@@ -546,7 +576,7 @@ img, img:hover {
         li {
             margin:15px 0;
             a {
-                color:$dark;
+                color: $bright;
             }
         }
     }
@@ -579,8 +609,9 @@ img, img:hover {
     background: rgba(0,0,0,0.3);
 }
 .lunrsearchresult {
+    background-color: $dark-mode;
     .title {
-        color:#000;
+        color: $bright;
         font-weight:700;
         line-height:1.2;
         display:block;
@@ -591,6 +622,7 @@ img, img:hover {
         }
     }
     span.body {
+        background-color: $dark-mode;
         color: $gray-500;
         line-height:1.7;
         display:block;
@@ -617,13 +649,13 @@ body.active-side {
     bottom: 0;
     margin-top: 150px;
     padding-top:30px;
-    border-top:1px solid $gray-200;
+    border-top:1px solid #2f3031;
     font-size:15px;
-    background:#fff;
+    background-color: $dark-mode-2;
     width: 100%
 }
 .wb-container {
-    min-height: calc(100vh - 240px);
+    min-height: calc(100vh - 200px);
 }
 
 //responsive tweaks
@@ -670,17 +702,8 @@ body.active-side {
     .firstpage .blog-grid-item:nth-child(3) .img-thumb {
         height:auto;
     }
-    .newsletter {
-        span.h4 {
-            font-size: 20px;
-        }
-        .mc-field-group input[type="email"] {
-            padding: 4px 10px;
-            min-width: 200px;
-        }
-        .mc-field-group input[type="submit"] {
-            padding: 4px 10px;
-        }
+    .dark-form {
+        margin: 3px;
     }
 }
 
@@ -722,14 +745,11 @@ body.active-side {
             font-size: 1.4rem;
         }
     }
+    .dark-form {
+        margin: 3px;
+    }
 }
 @media (max-width: 480px) {
-    .newsletter {
-        .mc-field-group input[type="email"] {
-            min-width:170px;
-            width: 170px;
-        }
-    }
     .article-post, .entry-header, .comments, .rating, .authorbox { 
         padding-left:0;
         padding-right:0;
@@ -751,5 +771,8 @@ body.active-side {
         .form-control {
             height:35px;
         }
+    }
+    .dark-form {
+        margin: 3px;
     }
 }
