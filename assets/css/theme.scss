@@ -41,6 +41,9 @@ img {
 h1,h2,h3,h4,h5,h6 {
     font-weight:700;
 }
+hr {
+    background-color: $bright;
+}
 .site-content {
     min-height: 100vh;
     position: relative;
@@ -68,6 +71,20 @@ h1,h2,h3,h4,h5,h6 {
     &:hover {
         color: $bright;
     }
+}
+.btn-bright {
+    border-radius: 20px;
+    color: $bright;
+    background: $dark-mode-2;
+    &:hover {
+        color: $black;
+        background-color: $teal;
+    }
+}
+.dark-form {
+    border: 0px;
+    border-radius: 20px;
+    background-color: #3a3b3c;
 }
 blockquote {
     font-family: Times New Roman;
@@ -632,13 +649,13 @@ body.active-side {
     bottom: 0;
     margin-top: 150px;
     padding-top:30px;
-    border-top:1px solid $dark-mode;
+    border-top:1px solid #2f3031;
     font-size:15px;
     background-color: $dark-mode-2;
     width: 100%
 }
 .wb-container {
-    min-height: calc(100vh - 240px);
+    min-height: calc(100vh - 200px);
 }
 
 //responsive tweaks
@@ -685,17 +702,8 @@ body.active-side {
     .firstpage .blog-grid-item:nth-child(3) .img-thumb {
         height:auto;
     }
-    .newsletter {
-        span.h4 {
-            font-size: 20px;
-        }
-        .mc-field-group input[type="email"] {
-            padding: 4px 10px;
-            min-width: 200px;
-        }
-        .mc-field-group input[type="submit"] {
-            padding: 4px 10px;
-        }
+    .dark-form {
+        margin: 3px;
     }
 }
 
@@ -737,14 +745,11 @@ body.active-side {
             font-size: 1.4rem;
         }
     }
+    .dark-form {
+        margin: 3px;
+    }
 }
 @media (max-width: 480px) {
-    .newsletter {
-        .mc-field-group input[type="email"] {
-            min-width:170px;
-            width: 170px;
-        }
-    }
     .article-post, .entry-header, .comments, .rating, .authorbox { 
         padding-left:0;
         padding-right:0;
@@ -766,5 +771,8 @@ body.active-side {
         .form-control {
             height:35px;
         }
+    }
+    .dark-form {
+        margin: 3px;
     }
 }
