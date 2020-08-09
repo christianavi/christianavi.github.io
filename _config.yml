@@ -66,7 +66,7 @@ kramdown:
 # Facebook Messenger
 messenger:
   page-id: "103714821167720"
-  theme-color: "#0d0e0e"
+  theme-color: "#2d88ff"
   logged-in-greeting: "Hi! How can we help you?"
   logged-out-greeting: "Hi! How can we help you?"
       
