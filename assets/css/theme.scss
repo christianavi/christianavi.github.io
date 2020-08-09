@@ -15,9 +15,9 @@ $fb-3: #18191a;
 $fb-text-1: #a8abaf;
 
 $primary: $fb-blue;
-$dark:    $black;
+$dark:    $fb-1;
 $dark-mode: $fb-2;
-$dark-mode-2: $fb-2;
+$dark-mode-2: $fb-3;
 $enable-rounded: false;
 
 @import "bootstrap/functions";
@@ -95,7 +95,7 @@ iframe {
 .btn-bright {
     border-radius: 20px;
     color: $fb-text-1;
-    background: $dark-mode-2;
+    background: $dark-mode;
     &:hover {
         color: white;
         background-color: $primary;
@@ -127,7 +127,7 @@ blockquote {
 .note-container {
     border-radius: 8px;
     border-left: 6px solid $primary;
-    background: $dark-mode-2;
+    background: $dark-mode;
     padding: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -179,7 +179,7 @@ img, img:hover {
 }
 .featured-image {
     border-radius: 20px;
-    background-color: red;
+    background-color: $dark-mode-2;
 }
 .featured-video{
     position: relative;
@@ -260,7 +260,7 @@ img, img:hover {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #151718;
+    background: $dark-mode-2;
     z-index: -1;
     animation: animate2 .3s;
     &.active {
@@ -338,7 +338,7 @@ img, img:hover {
         margin-right: 7px;
     }
     .card {
-        background-color: #0d0e0e;
+        background-color: $dark-mode;
         color: #8E9AA7;
         border:0;
         &:hover {           
@@ -370,7 +370,7 @@ img, img:hover {
     }
     .card-footer {
         border-radius: 20px;
-        background-color: $dark-mode-2;
+        background-color: $dark-mode;
         color: #8E9AA7;
         font-size:14px;
         border-top:0;
@@ -434,7 +434,7 @@ img, img:hover {
 .pagination {
     justify-content:center;
     a {
-        background: $dark-mode-2;
+        background: $dark-mode;
         color: $bright;
         cursor:pointer;
         &:hover {
@@ -526,7 +526,7 @@ img, img:hover {
         border-radius: 15px;
         font-size:15px;
         margin-bottom:30px;
-        background-color: $dark-mode-2;
+        background-color: $dark-mode;
         color:#cfd2d1;
         text-shadow: none;
     }
