@@ -297,7 +297,7 @@ img, img:hover {
                 min-width: 50%;
                 display: inline-block;
                 padding: 1vh 1.5vw;
-                border-radius: 20px;
+                border-left: 1px solid $dark;
                 line-height: 20px;
                 text-decoration: none;
                 color: $fb-text-1;
@@ -306,15 +306,13 @@ img, img:hover {
                 position: relative;
                 &:hover {
                     background-color: $fb-1;
-                 }
-                 .nav-active {
-                    border-style: solid;
-                    border-bottom: 2px;
-                    border-color: $fb-blue;
-                }
             }
         }
     }
+}
+}
+#nav-active {
+ border-left: 6px solid $primary;
 }
 
 
